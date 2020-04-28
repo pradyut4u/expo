@@ -1,0 +1,51 @@
+h1 {
+    color: aquamarine;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    border: solid;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: chartreuse;
+}
+
+.ex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: darkcyan;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: forestgreen;
+}
+
+p,h2{
+    text-align: center;
+}
+body{
+    background-color: rgb(120,255,120);
+}
+.item{
+    justify-content: space-evenly;
+    color: #9548F1;
+    font-size: 30px;
+}
+a:link{
+    color: coral;
+ }
+ a:visited{
+     color: darkred;
+ }
